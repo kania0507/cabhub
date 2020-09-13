@@ -10,9 +10,10 @@
 	<!--<script src="./assets/js/main.js"></script>-->
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
     	<link rel="shortcut icon" href="/images/favicon.png">
-	    <link href="/css/style.css" rel="stylesheet">
+		<link href="/css/style.css" rel="stylesheet">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9Sxi_uxJbak61KZw5IhN5k72ch8NQah8&libraries=places"></script>
 </head>
-<body>
+<body>dupa
 	<header>
 		<div class="header">
 			<div class="container">

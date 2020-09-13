@@ -49,6 +49,8 @@
                     color: #101010; 
                     font-weight: 400; 
                     padding-bottom: 1em;
+                    padding-left: 1em;
+                    padding-right: 1em;
 
                     @include set-mediaquery-size($tablet-portrait) {
                         padding-left: 1em;
@@ -96,6 +98,8 @@
                     color: #101010; 
                     font-weight: 400; 
                     padding-bottom: 1em;
+                    padding-left: 1em;
+                    padding-right: 1em;
 
                     @include set-mediaquery-size($tablet-portrait) {
                         padding-left: 1em;

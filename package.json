@@ -15,7 +15,8 @@
     "browser-sync-webpack-plugin": "^1.2.0",
     "cross-env": "^5.0.1",
     "laravel-mix": "^1.0",
-    "normalize-scss": "^7.0.0"
+    "normalize-scss": "^7.0.0",
+    "vue-google-autocomplete": "^1.1.0"
   },
   "dependencies": {
     "click-confirm": "^1.1.0",

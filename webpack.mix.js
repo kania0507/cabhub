@@ -26,6 +26,7 @@ mix.js('resources/assets/js/app.js', 'public/js/app.js')
     plugin + 'sticky-kit/sticky-kit.min.js',
     'resources/assets/js/custom.js',
     'resources/assets/js/main.js',
+    
     'public/js/app.js',
   ],'public/js/bundle.min.js')
     .sass('resources/assets/sass/style.scss', 'public/css')

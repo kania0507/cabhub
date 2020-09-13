@@ -21830,6 +21830,8 @@ header .header .container .main-nav-list .active {
   color: #101010;
   font-weight: 400;
   padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 @media (max-width: 900px) {
@@ -21883,6 +21885,8 @@ header .header .container .main-nav-list .active {
   color: #101010;
   font-weight: 400;
   padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 @media (max-width: 900px) {

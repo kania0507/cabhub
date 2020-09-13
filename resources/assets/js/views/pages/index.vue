@@ -218,7 +218,7 @@
 </template>
 
 <script>
- import booking from '../../views/form/booking'
+ import booking from '../../views/booking/booking'
  
     export default {
         components : { booking},
