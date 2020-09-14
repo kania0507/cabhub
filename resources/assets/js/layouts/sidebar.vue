@@ -29,7 +29,7 @@
                         <router-link to="/admin/vehicle" exact><i class="fa fa-car"></i> <span class="hide-menu">Vehicle</span></router-link>
                     </li>
                     <li>
-                        <router-link to="/admin/bookings" exact><i class="fa fa-book"></i> <span class="hide-menu">Booking</span></router-link>
+                        <router-link to="/admin/booking" exact><i class="fa fa-book"></i> <span class="hide-menu">Booking</span></router-link>
                     </li>
                     <li>
                         <router-link to="/admin/anything" exact><i class="fa fa-exclamation-triangle"></i> <span class="hide-menu">Error Page</span></router-link>

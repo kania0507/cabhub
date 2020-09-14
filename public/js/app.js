@@ -24153,7 +24153,7 @@ var render = function() {
             [
               _c(
                 "router-link",
-                { attrs: { to: "/admin/bookings", exact: "" } },
+                { attrs: { to: "/admin/booking", exact: "" } },
                 [
                   _c("i", { staticClass: "fa fa-book" }),
                   _vm._v(" "),
