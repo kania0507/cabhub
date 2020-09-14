@@ -30,3 +30,5 @@
 * vue-range-slider
 * vuejs-datepicker
 * vuex-persistedstate
+* vue-google-autocomplete
+

@@ -39,7 +39,11 @@ let routes = [
             {
                 path: '/admin/vehicle',
                 component: require('./views/vehicle/index')
-            },
+            },            
+            {
+                path: '/api/bookings',
+                component: require('./views/booking/index')
+            }
         ]
     },
     {
@@ -79,6 +83,10 @@ let routes = [
                 path: '/auth/social',
                 component: require('./views/auth/social-auth')
             },
+            {
+                path: '/api/booking',
+                component: require('./views/booking/booking')
+            }
         ]
     },
     {

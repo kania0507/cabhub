@@ -8,7 +8,7 @@ class Booking extends Model
 {
     //
     protected $fillable = [
-        'name', 'phone', 'date', 'time', 'startplace', 'endplace', 'vehicletype', 'payementmethod', 'email', 'desc', 'numofpassengers'
+        'name', 'phone', 'date', 'time', 'startplace', 'endplace', 'vehicle_class_id'//, 'payementmethod', 'email', 'desc', 'numofpassengers'
     ]; 
     protected $primaryKey = 'id';
     protected $table = 'bookings';

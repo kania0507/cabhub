@@ -15,6 +15,7 @@
 Route::get('/auth/social/{provider}', 'SocialAuthController@providerRedirect');
 Route::get('/auth/{provider}/callback', 'SocialAuthController@providerRedirectCallback');
 
+
 Route::get('/admin/{vue?}', function () {
     return view('home');
 })->where('vue', '[\/\w\.-]*')->name('home');

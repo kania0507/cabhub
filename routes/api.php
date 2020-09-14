@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+Route::post('/booking','BookingController@store');
 Route::group(['prefix' => 'auth'], function () {
     Route::post('/login','AuthController@authenticate');
     Route::post('/logout','AuthController@logout');
@@ -51,4 +51,7 @@ Route::group(['middleware' => ['jwt.auth']], function () {
     Route::get('/todo','TodoController@index');
     Route::delete('/todo/{id}','TodoController@destroy');
     Route::post('/todo/status','TodoController@toggleStatus');
+
+    
 });
+
