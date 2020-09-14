@@ -41,7 +41,7 @@ let routes = [
                 component: require('./views/vehicle/index')
             },            
             {
-                path: '/api/bookings',
+                path: '/admin/booking',
                 component: require('./views/booking/index')
             }
         ]

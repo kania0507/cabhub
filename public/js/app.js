@@ -23303,7 +23303,7 @@ var routes = [{
         path: '/admin/vehicle',
         component: __webpack_require__(102)
     }, {
-        path: '/api/bookings',
+        path: '/admin/booking',
         component: __webpack_require__(162)
     }]
 }, {
