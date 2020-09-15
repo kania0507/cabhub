@@ -36,6 +36,8 @@ Route::group(['middleware' => ['jwt.auth']], function () {
 
   Route::get('/vehicle','VehicleController@index');
 
+  Route::get('/bookings','BookingController@index');
+
     Route::get('/configuration/fetch','ConfigurationController@index');
     Route::post('/configuration','ConfigurationController@store');
 

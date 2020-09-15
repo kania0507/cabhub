@@ -3,8 +3,7 @@
         <nav class="navbar top-navbar navbar-expand-md navbar-light">
             <div class="navbar-header">
                 <a class="navbar-brand" href="/">
-                    <b>
-                        <img src="/images/logo-icon.png" alt="home" class="dark-logo" />
+                    <b>                       
                         <img src="/images/logo-light-icon.png" alt="home" class="light-logo" />
                     </b>
                     <span>

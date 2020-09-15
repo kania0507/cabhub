@@ -16,9 +16,9 @@
                     <li>
                         <router-link to="/admin/home" exact><i class="fa fa-home"></i> <span class="hide-menu">Home</span></router-link>
                     </li>
-                    <li>
+                    <!--<li>
                         <router-link to="/admin/blank" exact><i class="fa fa-user"></i> <span class="hide-menu">Blank Page</span></router-link>
-                    </li>
+                    </li>-->
                     <li>
                         <router-link to="/admin/user" exact><i class="fa fa-users"></i> <span class="hide-menu">User</span></router-link>
                     </li>
@@ -31,9 +31,9 @@
                     <li>
                         <router-link to="/admin/booking" exact><i class="fa fa-book"></i> <span class="hide-menu">Booking</span></router-link>
                     </li>
-                    <li>
+                    <!--<li>
                         <router-link to="/admin/anything" exact><i class="fa fa-exclamation-triangle"></i> <span class="hide-menu">Error Page</span></router-link>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="#" @click.prevent="logout"><i class="fa fa-power-off"></i> <span class="hide-menu">Logout</span></a>
                     </li>
